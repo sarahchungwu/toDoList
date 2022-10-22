@@ -1,0 +1,67 @@
+body {
+    /* display: flex; */
+    display: flex;
+    background: url("bgm.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    margin: 10rem 20rem 0rem 20rem;
+    background-color: #ebe0f6;
+    border: 1px solid #9977ba;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0.1rem 0.1rem 0.4rem #552b7e;
+    position: relative;
+    width: 100vh;
+   
+
+
+
+  }
+  
+  h1 {
+    display: inline-block;
+    width:40vh;
+    text-align: center;
+  }
+  
+  .userInput {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  input {
+    margin-right: 1rem;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(229, 202, 236);
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  ul {
+    display: block;
+  }
+  
+  .delClass {
+    display: flex;
+    color: rgb(113, 32, 129);
+  }
